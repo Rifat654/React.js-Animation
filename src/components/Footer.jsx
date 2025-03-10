@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="w-full  md:w-[70%] container mx-auto py-5  flex flex-col items-center justify-around md:items-start md:flex-row gap-5 text-center md:text-start">
                 <div className=" w-[300px] rounded-md shadow-slate-400 shadow-sm p-3 ">
                     <h1 className="text-xl font-light">About American-Express Card</h1>
-                    <p className="text-[10px] text-start pt-4 text-gray-400">Master card are sit amet consectetur adipisicing elit. Maiores quia omnis accusantium! Labore, aspernatur. Itaque, blanditiis quam cum odio dolores fuga repudiandae minima laborum suscipit!</p>
+                    <p className="text-[10px] text-start pt-4 text-gray-400">Master card are sit amet consectetur adipisicing elit. Maiores  omnis accusantium! Labore, aspernatur. Itaque, blanditiis quam cum odio dolores fuga repudiandae minima laborum suscipit!!!</p>
                     <div className="flex items-center gap-4 pt-4">
                         <FaFacebookSquare className="text-blue-600 bg-fuchsia-50" />
                         <FaInstagramSquare className="text-pink-600 bg-white" />
