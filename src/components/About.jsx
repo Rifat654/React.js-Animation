@@ -17,7 +17,7 @@ const About = () => {
                                 <div key={index.id1} className=" w-full  ">
                                     <h3 className=" pt-1 text-md text-green-600">{index.span}</h3>
                                     <h1 className="text-3xl md:text-4xl lg:text-5xlfont-semibold pb-2">{index.heading}</h1>
-                                    <p className="text-sm text-gray-700">{index.padding}</p>
+                                    <p className="text-sm text-slate-400">{index.padding}</p>
                                 </div>
                             ))
                         }
