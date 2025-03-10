@@ -6,6 +6,7 @@ import { TestimonialsData } from "../MocData/Data";
 const Testimonial = () => {
     const settings = {
         dots: true,
+        arrows: false, // ✅ Fixed "arrow" -> "arrows"
         infinite: true,
         speed: 500,
         slidesToScroll: 1,
@@ -33,6 +34,7 @@ const Testimonial = () => {
                     slidesToScroll: 1,
                 },
             },
+
         ],
     };
 

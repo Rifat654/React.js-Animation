@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 
 const App = () => {
     return (
-        <div className="bg-[#23272F] text-gray-200">
+        <div className="bg-[#23272F] text-gray-200 overflow-hidden">
             <Navbar />
             <Hero />
             <Infinite />
