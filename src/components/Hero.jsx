@@ -24,7 +24,7 @@ const Hero = () => {
                         <motion.img
                             src={image}
                             alt="Brand"
-                            className="w-[400px] h-[250px] rounded-2xl shadow-xl"
+                            className="w-[400px] h-[250px] rounded-2xl shadow-lg shadow-slate-400"
                         />
                     </motion.div>
                 </div>
@@ -34,7 +34,7 @@ const Hero = () => {
                     {info.map((item) => (
                         <div key={item.id} className="mb-5 text-center sm:text-start">
                             <h1 className="text-3xl font-semibold">{item.tittle}</h1>
-                            <p className="text-gray-700">{item.description}</p>
+                            <p className="text-slate-500">{item.description}</p>
                         </div>
                     ))}
                     <div className="flex items-center justify-center md:justify-start">

@@ -50,9 +50,9 @@ const Testimonial = () => {
                         <div className="shadow-md shadow-slate-500 my-5 flex items-center rounded-lg justify-center mx-2">
                             <div className="p-5 flex flex-col items-center gap-4">
                                 <img src={data.img} alt="" className="w-20 h-20 rounded-full " />
-                                <h1 className="text-xl">{data.name}</h1>
-                                <p className="text-center">{data.text}</p>
-                                <button className="px-2 py-1 shadow-md shadow-green-700  text-black rounded-md cursor-pointer hover:shadow-green-500 transition-all duration-300">{data.btn}</button>
+                                <h1 className="text-xl md:text-2xl">{data.name}</h1>
+                                <p className="text-center text-sm text-slate-400">{data.text}</p>
+                                <button className="px-2 py-1 shadow-md shadow-green-700  text-amber-50 rounded-md cursor-pointer hover:shadow-green-500 transition-all duration-300">{data.btn}</button>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ const Respons = ({ open }) => {
                         exit={{ opacity: 0 }}
                         className="absolute top-20 left-0 w-full h-screen z-20 overflow-hidden md:hidden block"
                     >
-                        <div className="bg-purple-500 p-5 mx-5 rounded-2xl text-right flex flex-col items-end justify-center  gap-5 text-white">
+                        <div className="bg-slate-700 shadow-sm shadow-slate-400 p-5 mx-5 rounded-2xl text-right flex flex-col items-end justify-center  gap-5 text-white">
                             <ul>
                                 <li><a href="home">Home</a></li>
                                 <li><a href="#about">About</a></li>
